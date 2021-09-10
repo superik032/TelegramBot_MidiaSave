@@ -39,7 +39,7 @@ def error(update, context):
 
 def getLink(update, context):
     global twitter, url, chat_id, smile
-    bot = telegram.Bot(token="1950929852:AAHjwJcvFYAhESN-xVzTie8r9DsldXeILkg")
+    bot = telegram.Bot(token="1911181922:AAGzr7hwPlqPb4vCTaTTEES0JhD44_gv7FE")
     url = update.message.text
     chat_id = update.message.chat_id
 ############################################### Twitter ####################################
